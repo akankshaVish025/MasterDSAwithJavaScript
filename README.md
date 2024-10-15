@@ -10,7 +10,25 @@ Whether you're preparing for technical interviews, brushing up on core concepts,
 
 ---
 
-## 📂 **Repository Structure**  
+## 📂 **Repository Structure** 
+
+DSAwithJavaScript/ 
+├── Arrays/
+│   └── TwoSum.js
+├── Strings/
+│   └── StringPalindrome.js
+├── LinkedList/
+│   └── ReverseLinkedList.js
+├── Recursion/
+│   └── Factorial.js
+├── Sorting/
+│   └── QuickSort.js
+├── DynamicProgramming/
+│   └── Fibonacci.js
+└── Mathematics/
+    ├── PrimeNumber.js
+    └── ArmstrongNumber.js
+   
 
 --
 
