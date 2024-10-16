@@ -42,8 +42,7 @@ DSAwithJavaScript/
    cd DSAwithJavaScript
 2. Run any JavaScript file using Node.js:
    ```
-   node .\01_Fibonacci_series.js
-
+    node .\01_Fibonacci_series.js
 ---
 
 ## 🤝 Contributing
