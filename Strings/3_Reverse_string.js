@@ -32,3 +32,5 @@ function reverseStr(str) {
 let res = reverseStr("Kanishka");
 console.log(res, "res");
 
+// Time Complexity: O(n)
+// Explanation: The split, reverse, and join operations all take linear time based on the length of the string.
