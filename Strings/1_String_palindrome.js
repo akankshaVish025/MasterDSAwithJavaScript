@@ -21,3 +21,16 @@ console.log("isPalindrome: ", result);
 
 // Time Complexity: O(n)
 // Explanation: Reversing a string and checking for equality both take linear time based on the length of the string.
+
+// EX.2
+
+let str = 'A man, a plan, a canal: Panama'
+
+function isPalindrome(str) {
+    let newStr = str.replace(/[^A-Za-z0-9]/g, '').toLowerCase();    // amanaplanacanalpanama
+    let reverse = newStr.split('').reverse().join('');    // amanaplanacanalpanama
+    return reverse === newStr;    // true
+}   
+
+console.log(isPalindrome('hello'))
+console.log(isPalindrome(str))
