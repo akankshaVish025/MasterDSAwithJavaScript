@@ -17,7 +17,7 @@ function isPrime(n) {
 let result = isPrime(31);
 console.log("isPrime: ", result);
 
-/*
+/****  IMP***
 Question:
 "Why do we only check factors up to the square root of a number to determine if it's prime?"
 
