@@ -12,6 +12,9 @@ Whether you're preparing for technical interviews, brushing up on core concepts,
 
 ## 📂 **Repository Structure** 
 
+# Repository Structure
+
+```
 DSAwithJavaScript/ 
 ├── Arrays/
 │   └── TwoSum.js
@@ -28,7 +31,7 @@ DSAwithJavaScript/
 └── Mathematics/
     ├── PrimeNumber.js
     └── ArmstrongNumber.js
-   
+```
 
 --
 
@@ -38,19 +41,20 @@ DSAwithJavaScript/
    git clone https://github.com/your-username/DSAwithJavaScript.git
    cd DSAwithJavaScript
 2. Run any JavaScript file using Node.js:
-   node .\01_Fibonacci_series.js
-
+   ```
+    node .\01_Fibonacci_series.js
 ---
 
 ## 🤝 Contributing
 We welcome contributions! If you want to add new problems, optimize code, or improve documentation:
 
 Fork this repository.
+```
 Create a new branch: git checkout -b feature-branch.
 Commit your changes: git commit -m 'Add new feature'.
 Push to the branch: git push origin feature-branch.
 Open a pull request.
-
+```
 ---
 
 ## 📧 Contact
