@@ -67,5 +67,3 @@ console.log(uniqueArray); // Output: [1, 2, 3, 4]
 
 // Time Complexity: O(n)
 // Explanation: The Set automatically removes duplicates, and converting it back to an array takes linear time.
-
-
