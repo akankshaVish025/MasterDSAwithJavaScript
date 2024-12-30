@@ -34,3 +34,32 @@ function isPalindrome(str) {
 
 console.log(isPalindrome('hello'))
 console.log(isPalindrome(str))
+
+// let STR = "aba";
+function isPalindrome(str) {
+    let newStr = "";
+    console.log(str.length);
+    
+    for (let i=0; i<str.length; i++) {
+        let char = str[str.length-i];
+        console.log(char, "char");
+        
+        newStr += char;
+    }
+    console.log(newStr,"newStr");
+
+    if (str === newStr) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(isPalindrome("aba"))
+
+let st = "abc"
+console.log(st.length,"name");
+for(let i=0; i<st.length; i++) {
+    console.log(i, st[i]);
+}
+
