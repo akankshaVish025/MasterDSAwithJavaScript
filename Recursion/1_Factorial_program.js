@@ -24,7 +24,36 @@ function factorial(n) {
     return n * factorial(n-1);
 }   
 
-console.log(factorial(10));
+console.log(factorial(10));  //3628800
 
 // Time Complexity: O(n)
 // Explanation: The function calls itself recursively n times.
+
+// without recursion (Using Iteration)
+function factorial(num) {
+    if(num < 0) return -1;
+    let result = 1;
+    for(let i=2; i<=num; i++) {
+        result = result * i
+    }
+    return result;
+}
+
+console.log(factorial(8)) //40320
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
+// Exponnent problem
+function exponent(Base, Exp){
+    let result = 1;
+    for(let i=1; i<=Exp ; i++) {
+        result = result * Base;
+    }
+    return result;
+}
+ 
+console.log(exponent(5, 3)) // 125
+
+// Time Complexity: O(1)
+// Space Complexity: O(1)
